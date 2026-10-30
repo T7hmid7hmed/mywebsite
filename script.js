@@ -1,8 +1,8 @@
 // Button 1 (home page): reveal a tip
 function showTip(){
-  const tips=["Tip: Hand-wash your mug to keep the glaze glossy for years.",
-              "Tip: Every piece is fired twice, so small colour variations are normal.",
-              "Tip: Bowls are oven-safe up to 200°C, perfect for baking small dishes."];
+  const tips=["Tip: Don't listen at full volume for long hours.",
+              "Tip: This head-phones are crafted for bass music.",
+              "Tip: Assembled in China."];
   const box=document.getElementById('tipBox');
   box.textContent=tips[Math.floor(Math.random()*tips.length)];
   box.style.display='block';
